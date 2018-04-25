@@ -1,0 +1,27 @@
+{
+  "name": "es6-node-server",
+  "version": "1.0.0",
+  "description": "es6开发node服务示例",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happystory/es6-node-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happystory/es6-node-server/issues"
+  },
+  "homepage": "https://github.com/happystory/es6-node-server#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {}
+}
